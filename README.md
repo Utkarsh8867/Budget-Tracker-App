@@ -20,7 +20,7 @@ The **Budget Tracker App** is a Java-based mobile application designed to help u
 To run the **Budget Tracker App**, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/budget-tracker-app.git
+    git clone https://github.com/Utkarsh8867/budget-tracker-app.git
     ```
 2. Open the project in **Android Studio**.
 3. Build the project and run it on an Android emulator or physical device.

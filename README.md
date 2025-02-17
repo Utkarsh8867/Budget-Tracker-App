@@ -1,7 +1,8 @@
+```markdown
 # Budget Tracker App
 
 ## Overview
-The **Budget Tracker App** is a Java-based mobile application designed to help users track and manage their income and expenses efficiently. The app provides users with the ability to monitor their financial activity and view reports on their spending habits, ultimately improving financial discipline.
+The **Budget Tracker App** is a Flutter-based mobile application designed to help users track and manage their income and expenses efficiently. The app provides users with the ability to monitor their financial activity and view reports on their spending habits, ultimately improving financial discipline.
 
 ## Features
 - **Add Income and Expenses:** Users can easily log their daily income and expenses.
@@ -12,18 +13,31 @@ The **Budget Tracker App** is a Java-based mobile application designed to help u
 - **Data Backup:** Supports backing up the user's financial data locally.
 
 ## Tech Stack
-- **Java:** Used for core application logic and functionality.
+- **Flutter:** Used for building the cross-platform mobile application.
+- **Dart:** The programming language for Flutter development.
 - **SQLite:** A lightweight database for storing user data locally on the device.
-- **Android SDK:** For building and deploying the mobile application.
-  
+- **Provider/ Riverpod:** For state management and managing app-wide data efficiently.
+- **Firebase (Future Update):** For cloud storage and user authentication.
+
 ## Installation and Setup
 To run the **Budget Tracker App**, follow these steps:
+
 1. Clone the repository:
     ```bash
     git clone https://github.com/Utkarsh8867/budget-tracker-app.git
     ```
-2. Open the project in **Android Studio**.
-3. Build the project and run it on an Android emulator or physical device.
+2. Navigate to the project directory:
+    ```bash
+    cd budget-tracker-app
+    ```
+3. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4. Run the application on an emulator or physical device:
+    ```bash
+    flutter run
+    ```
 
 ## Usage
 1. Open the app and sign up or log in.
@@ -37,6 +51,8 @@ To run the **Budget Tracker App**, follow these steps:
 - **Cloud Sync:** Enable syncing data across devices using cloud storage.
 - **Graphs and Charts:** Provide graphical representations of income and expenses for better insights.
 - **Multi-currency Support:** Allow users to track expenses in different currencies.
+- **Dark Mode:** Offer a dark mode theme for better user experience.
+- **AI-based Expense Predictions:** Suggest budget plans based on user spending habits.
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
@@ -50,3 +66,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For any questions or feedback, please contact me at [kaduutkarsh52@gmail.com](mailto:kaduutkarsh52@gmail.com).
+```
+

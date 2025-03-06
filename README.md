@@ -1,4 +1,4 @@
-```markdown
+hi```markdown
 # Budget Tracker App
 
 ## Overview
@@ -60,11 +60,4 @@ Contributions are welcome! Please follow these steps to contribute:
 2. Create a new branch for your feature/bugfix.
 3. Commit your changes and push them to your fork.
 4. Create a pull request to the `main` branch.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-For any questions or feedback, please contact me at [kaduutkarsh52@gmail.com](mailto:kaduutkarsh52@gmail.com).
-```
 
